@@ -1,15 +1,13 @@
 {
-  "name": "vue3-bryntum-filter-error-server",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "vue3-bryntum-filter-error-server-2",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "deploy": "wrangler deploy",
+    "dev": "wrangler dev",
+    "start": "wrangler dev"
   },
-  "author": "Guilherme Pinto",
-  "license": "ISC",
-  "dependencies": {
-    "cors": "^2.8.5",
-    "express": "^4.18.3"
+  "devDependencies": {
+    "wrangler": "^3.0.0"
   }
 }
