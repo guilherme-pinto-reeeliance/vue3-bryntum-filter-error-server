@@ -30,6 +30,7 @@ export default {
 						case '<=':
 							return itemValue <= filterValue;
 						case '*':
+						case 'includes':
 						case 'like':
 							return itemValue.includes(filterValue);
 						default:
