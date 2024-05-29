@@ -44,6 +44,7 @@ export default {
 			const newResponse = new Response(response);
 
 			newResponse.headers.set('Access-Control-Allow-Origin', 'https://vue3-bryntum-filter-error.pages.dev');
+			newResponse.headers.set('Access-Control-Allow-Origin', 'http://localhost:3000');
 			newResponse.headers.set('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE, OPTIONS');
 			newResponse.headers.set('Access-Control-Allow-Headers', 'X-Requested-With, Content-Type, Accept');
 			newResponse.headers.set('Access-Control-Allow-Credentials', 'true');
